@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About us</title>
+  <link rel="stylesheet" href="../css/bootstrap.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+<style>
+    
+        .bg-img{
+                /* background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5)) center center no-repeat; */
+                /* background-size: cover; */
+        }
+        #border{
+            border:1px solid white;
+            padding :17px 19px;
+            margin:0px 0px;
+        }
+        #border1{
+            border:1px solid white;
+            padding :12px 16px;
+            margin:0px 0px;
+        }
+       #innerLine2{
+            width:49px;
+            height: 10px;
+            margin:-24px 0px 0px 291px;
+            border-bottom:9px solid #04a4eb;
+
+
+        }
+        #innerLines{
+            border-bottom:2px solid #04a4eb;
+            width:133px;
+            height: 3px;
+            margin:17px 245px;
+        }
+
+    
+@media screen and (min-width: 320px) and (max-width: 765px) {
+  #innerLines {
+    border-bottom:2px solid #04a4eb;
+            width:133px;
+            height: 3px;
+            margin:17px 127px;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 765px) {
+    #innerLine2{
+            width:49px;
+            height: 10px;
+            margin:-24px 0px 0px 169px;
+            border-bottom:9px solid #04a4eb;
+
+
+        }
+}
+
+
+    
+</style>
+</head>
+<body>
+    <!-- Menu area start here -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12 shadow-sm">
+        <nav class="navbar navbar-expand-lg navbar-light d-flex align-items-center px-0">
+          <a class="navbar-brand" href="../index.html">
+            <img src="../images/logo.png" class="img-fluid" style="width:250px" alt="">
+          </a>
+          <ul class="nav ms-auto temp-clr d-flex align-items-center flex-row">
+            <li class="nav-item px-2">
+              <a class="nav-link fs-4" style="cursor: unset;" aria-current="page" href="#">
+                <i class="fa-solid fa-bell"></i>
+              </a>
+            </li>
+            <li class="nav-item px-2 d-none d-lg-block">
+              <a class="nav-link text-dark hover-effect" aria-current="page" href="#">LOGIN</a>
+            </li>
+            <li class="nav-item px-2 d-none d-lg-block">
+              <a class="nav-link text-dark hover-effect" href="#">REGISTER</a>
+            </li>
+            <li class="nav-item px-2 dropdown d-none d-lg-block">
+              <a class="nav-link text-dark dropdown-toggle hover-effect" href="#" id="eng-1" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                ENGLISH
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="eng-1">
+                <li><a class="dropdown-item p-1 text-muted text-uppercase text-center" href="#">pycckn</a></li>
+                <li><a class="dropdown-item p-1 text-muted text-uppercase text-center" href="#">english</a></li>
+                <li><a class="dropdown-item p-1 text-muted text-uppercase text-center" href="#">deutsch</a></li>
+                <li><a class="dropdown-item p-1 text-muted text-uppercase text-center" href="#">espanol</a></li>
+              </ul>
+            </li>
+            <li class="nav-item px-2 dropdown d-none d-lg-block">
+              <a class="nav-link dropdown-toggle text-dark hover-effect" href="#" id="navbarDropdownMenuLink1"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                USD
+              </a>
+              <ul class="dropdown-menu text-center" style="height: 76vh; overflow-x: hidden;" aria-labelledby="eng-1">
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase disabled" href="#">Popular
+                    Currencies</a></li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">usd us dollar,
+                    &dollar;</a></li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">eur euro, &euro;</a>
+                </li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">gbp pound sterling,
+                    &pound;</a></li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">rub russian ruble,
+                    rub</a></li><br>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase disabled" href="#">full list of
+                    Currencies</a></li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">aed uae dirham</a>
+                </li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">afn afghan afghani</a>
+                </li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">all alnanian lek</a>
+                </li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">amd armenian dram</a>
+                </li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">ang dutch guilder</a>
+                </li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">aoa angolan kwanza</a>
+                </li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">ars argentine peso</a>
+                </li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">aud australian
+                    dollar</a></li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">awz aruban florin</a>
+                </li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">azn azerbaijani
+                    manat</a></li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">bam convertible
+                    mark</a></li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">bbd barbadian
+                    dollar</a></li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">bdt bangladeshi
+                    taka</a></li>
+                <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">bgn bulgarian ley</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item px-3 dropdown">
+              <a class="nav-link btn-radius-clr text-white" id="menu-btn" aria-current="page" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-solid fa-align-justify" style="color: #ffffff; font-size: 20px;"></i>
+              </a>
+              <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink1">
+                <li><a class="dropdown-item text-primary py-2" href="../user/destination.html">Destinations</a></li>
+                <li><a class="dropdown-item text-primary py-2" href="../user/business.html">Business</a></li>
+                <li><a class="dropdown-item text-primary py-2" href="../user/about.html">About us</a></li>
+                <li><a class="dropdown-item text-primary py-2" href="../user/helpcenter.html">Help center</a></li>
+                <li><a class="dropdown-item text-primary py-2" href="../user/contact.html">Contact</a></li>
+                <li><a class="dropdown-item text-primary py-2" href="../user/deals.html">Deal & Discount</a></li>
+                <li><a class="dropdown-item text-primary py-2" href="../user/privacypolicy.html">Privacy Policy</a></li>
+                <li class="nav-item px-2 d-block d-lg-none">
+                  <a class="nav-link text-dark hover-effect" aria-current="page" href="#">LOGIN</a>
+                </li>
+                <li class="nav-item px-2 d-block d-lg-none">
+                  <a class="nav-link text-dark hover-effect" href="#">REGISTER</a>
+                </li>
+                <li class="nav-item px-2 dropdown d-block d-lg-none">
+                  <a class="nav-link text-dark dropdown-toggle hover-effect" href="#" id="eng-1" role="button"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    ENGLISH
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="eng-1">
+                    <li><a class="dropdown-item p-1 text-muted text-uppercase text-center" href="#">pycckn</a></li>
+                    <li><a class="dropdown-item p-1 text-muted text-uppercase text-center" href="#">english</a></li>
+                    <li><a class="dropdown-item p-1 text-muted text-uppercase text-center" href="#">deutsch</a></li>
+                    <li><a class="dropdown-item p-1 text-muted text-uppercase text-center" href="#">espanol</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item px-2 dropdown d-block d-lg-none">
+                  <a class="nav-link dropdown-toggle text-dark hover-effect" href="#" id="navbarDropdownMenuLink1"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    USD
+                  </a>
+                  <ul class="dropdown-menu text-center" style="height: 76vh; overflow-x: hidden;"
+                    aria-labelledby="eng-1">
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase disabled" href="#">Popular
+                        Currencies</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">usd us dollar,
+                        &dollar;</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">eur euro,
+                        &euro;</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">gbp pound
+                        sterling, &pound;</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">rub russian ruble,
+                        rub</a></li><br>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase disabled" href="#">full list
+                        of Currencies</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">aed uae dirham</a>
+                    </li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">afn afghan
+                        afghani</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">all alnanian
+                        lek</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">amd armenian
+                        dram</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">ang dutch
+                        guilder</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">aoa angolan
+                        kwanza</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">ars argentine
+                        peso</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">aud australian
+                        dollar</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">awz aruban
+                        florin</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">azn azerbaijani
+                        manat</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">bam convertible
+                        mark</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">bbd barbadian
+                        dollar</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">bdt bangladeshi
+                        taka</a></li>
+                    <li><a class="dropdown-item text-primary p-1 text-muted text-uppercase " href="#">bgn bulgarian
+                        ley</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+
+        </nav>
+      </div>
+    </div>
+  </div>
+  <!-- Menu area end here -->
+    <!-- About Start -->
+    <div class="container-fluid pt-5" style="background-color: #f4f4f5;">
+        <div class="container">
+            <div class="section-title position-relative text-center mx-auto mb-5 pb-3" style="max-width: 600px;">
+                <h2 style="font-family: 'Pacifico', cursive; font-size: 42px; color:#04a4eb; font-weight:600" class="text-lowercase">About us</h2>
+                <h1 class="display-4 text-uppercase" style="font-family:'Oswald',sans-serif;" >Welcome To <br style="" class="d-none d-sm-none d-md-none d-lg-block text"/>Holidaywize</h1>
+             <p id="innerLines" ><p id="innerLine2"></p> </div>
+          
+            <div class="row gx-5">
+                <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100" src="../img/about.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 pb-5">
+                    <h4 class="mb-4" style="font-family:'Oswald',sans-serif; font-size:30px; ">Sustainable</h4>
+                    <p class="mb-5" style="font-size:14px; font-weight:400; opacity:0.8">To be successful, it is critical that we respect nature and sustainable tourism and treat all our stakeholders, including our guests, our employees, and our suppliers, fairly.</p>
+                    <div class="row g-5">
+                        
+                        <div class="col-sm-6">
+
+                            <div class="d-flex align-items-center justify-content-center  border-inner mb-4" style="width: 90px; height: 90px; background-color:#04a4eb;">
+                            <p id="border">
+                                <i class="fa fa-heartbeat fa-2x text-white"></i></p>
+                            </div>
+
+                            <h4 class="text-uppercase" style="font-family:'Oswald',sans-serif; font-size:30px; ">100% Healthy Food</h4>
+                            <p class="mb-0" style="font-size:14px; font-weight:400; opacity:0.8"> In order to serve the best food, we always strive to serve 100% pure and healthy food. Visitors will find our prices to be reasonable since we serve some of the best foods. Staff members are always friendly and happy to help. The place is clean and service prompt and professional.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Facts Start -->
+    <div class="container-fluid  py-5 " style="background-color:#adb5bd;">
+        <div class="container py-5">
+            <div class="row gx-5 gy-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex">
+                        <div class=" border-inner d-flex align-items-center justify-content-center " style="width: 60px; height: 60px; background-color:#04a4eb;">
+                        <p id="border1">
+                            <i class="fa fa-star text-white"></i>
+                        </p>
+                        </div>
+                        <div class="ps-4">
+                            <h6 class="text-uppercase" style="font-family:'Oswald',sans-serif; font-size:20px; color:#04a4eb">Our Experience</h6>
+                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up" style="font-family:'Oswald',sans-serif; font-size:40px;">12345</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex">
+                        <div class=" border-inner d-flex align-items-center justify-content-center " style="width: 60px; height: 60px; background-color:#04a4eb;">
+                        <p id="border1">
+
+                            <i class="fa fa-users text-white"></i></p>
+                        </div>
+                        <div class="ps-4">
+                            <h6 class=" text-uppercase"  style="font-family:'Oswald',sans-serif; font-size:20px; color:#04a4eb">Cake Specialist</h6>
+                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up" style="font-family:'Oswald',sans-serif; font-size:40px; ">12345</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex">
+                        <div class=" border-inner d-flex align-items-center justify-content-center mb-3" style="width: 60px; height: 60px; background-color:#04a4eb;"><p id="border1">
+                            <i class="fa fa-check text-white"></i></p>
+                        </div>
+                        <div class="ps-4">
+                            <h6 class=" text-uppercase"  style="font-family:'Oswald',sans-serif; font-size:20px; color:#04a4eb">Complete Project</h6>
+                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up" style="font-family:'Oswald',sans-serif; font-size:40px;">12345</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex">
+                        <div class=" border-inner d-flex align-items-center justify-content-center " style="width: 60px; height: 60px; background-color:#04a4eb;"><p id="border1">
+                            <i class="fa fa-mug-hot text-white"></i></p>
+                        </div>
+                        <div class="ps-4">
+                            <h6 class=" text-uppercase"  style="font-family:'Oswald',sans-serif; font-size:20px; color:#04a4eb">Happy Clients</h6>
+                            <h1 class="display-5 text-white mb-0" data-toggle="counter-up" style="font-family:'Oswald',sans-serif; font-size:40px;">12345</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts End -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+</html>

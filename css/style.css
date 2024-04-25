@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Oswald:wght@700&display=swap');
+
+/* Scroll bar CSS */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #838383;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #494541;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #b8b8b8;
+}
+
+/* form changing area start*/
+.removing-shadow:focus {
+    box-shadow: none !important;
+}
+
+.removing-shadow:active {
+    box-shadow: none !important;
+}
+
+input:focus,
+select:focus {
+    box-shadow: 0px 0px 3px 2px rgb(245, 111, 107) !important;
+}
+
+input:hover,
+select:hover {
+    border: 1px solid rgb(245, 111, 107);
+}
+
+.form-check-input:checked[type="radio"] {
+
+    box-shadow: 0px 0px 3px 2px rgb(245, 111, 107) !important;
+    border: 4px solid rgb(245, 111, 107);
+    background-color: transparent !important;
+}
+.navbar-brand img{
+    width: 250px;
+}
+/* form changing area end */
+@media (max-width:500px){
+    .navbar-brand img{
+        width: 235px ;
+    }
+    .px-axis-sm-0{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .px-axis-sm-05{
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+}
+@media (max-width:400px){
+    .navbar-brand img{
+        width: 218px ;
+    }
+    .px-axis-sm-0{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .px-axis-sm-05{
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+}
+@media (max-width:350px) {
+    .navbar-brand{
+        margin-right: 0 !important;
+    }
+    .navbar-brand img{
+        width: 178px;
+    }
+    .px-axis-sm-0{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .px-axis-sm-05{
+        padding-left: 0.5rem !important;
+        padding-right: 0.5rem !important;
+    }
+}
+/* Menu area CSS */
+
+.nav-link {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: #0a0a0a !important;
+    font-size: 1rem;
+}
+
+.hover-effect:hover {
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: #fff;
+    border-radius: 100px;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all .3s;
+}
+
+.btn-radius-clr {
+    border-radius: 12px;
+    background-color: #e88f2a;
+    width: 50px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0 !important;
+    text-align: center;
+}
+
+.dropdown-menu {
+    min-width: 14rem !important;
+    padding: 0.5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: center;
+    border: none;
+}
+
+.temp-clr {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1rem;
+    color: black !important;
+
+}
+
+.dropdown-menu[data-bs-popper] {
+    top: 100% !important;
+    left: -130px !important;
+    margin-top: 0.825rem !important;
+    ;
+}
+
+/* booking hotel area CSS */
+@media (min-width: 1024px) {
+    .positioning-rel {
+        position: relative;
+        top: 100px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .positioning-rel {
+        position: relative;
+        top: 60px;
+    }
+}
+
+/* @media (min-width: 768px) {
+    .wrap-bg-color{
+        width: 50%;
+    }
+} */
+/* @media (max-width: 768px) {
+    .wrap-bg-color {
+        width: 100%;
+    }
+} */
+
+.search-hotl {
+    padding: 10px;
+}
+
+.form-select1 {
+    background-image: none !important;
+    padding: .375rem;
+}
+
+@media (max-width: 425px) {
+    .for-mrgn-top-1 {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .for-mrgn-top-2 {
+        margin-top: 25px;
+    }
+}
+
+/* Card area in CSS */
+.bg-img {
+    width: 100%;
+    min-height: 600px;
+    height: 600px;
+    background-image: url(../images/hero.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.AE-styling {
+    font-family: 'Oswald', sans-serif;
+    color: #2B2825;
+    letter-spacing: -1px;
+    font-size: 28px;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 600;
+}
+.AE-styling1 {
+    font-family: 'Oswald', sans-serif;
+    color: #2B2825;
+    font-weight: 600;
+    font-size: 26px;
+}
+@media (max-width:500px) {
+    .AE-styling1 {
+        font-size: 24px;
+    }
+    /* .m-to-top .left .gap-5{
+        gap: 0rem !important;
+    }
+    .m-to-top .left h2{
+        display: none !important;
+    } */
+}
+@media (max-width:350px) {
+    .AE-styling{
+        font-size: 24px;
+}
+.AE-styling1 {
+    font-size: 22px;
+}
+}
+
+@media (max-width: 768px) {
+    .m-to-top {
+        margin-top: 15px;
+    }
+}
+
+/* Backyard area CSS */
+/* Footer area CSS */
+.footer h1 {
+    color: #04A4EB;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    color: white;
+    padding: 40px 0px 0px 0px;
+    background-color: black;
+    margin-top: 150px;
+
+
+
+    .box {
+        position: relative;
+        top: -80px;
+        padding: 10px 10px;
+        text-align: center;
+        background-color: #04A4EB;
+
+        .box-inner {
+            border: 1px solid white;
+            padding: 70px 5px 5px;
+        }
+    }
+
+    .icons a {
+        background-color: #EBA04A;
+        padding: 10px;
+    }
+
+    .icons a i {
+        padding: 4px 6px;
+        border: 1px solid white;
+        color: white;
+    }
+
+    .icons a i:hover {
+        color: black;
+    }
+
+}
+
+.box h1 {
+    font-family: 'Kablammo', cursive;
+    color: #2B2825;
+    font-weight: 600;
+    font-size: 35px;
+    letter-spacing: 0.2px;
+}
+
+.ah:hover {
+    transition: 1s;
+    padding-left: 10px;
+}
+
+
+.input {
+    position: relative;
+}
+
+.input button {
+    position: absolute;
+    right: 0px;
+    top: 0%;
+    background-color: #EBA04A;
+    border: none;
+    color: white;
+    bottom: 0%;
+}
+.AE-styling-footer {
+    color: #2B2825;
+    font-weight: 600;
+    font-size: 34px;
+    letter-spacing: -0.5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (max-width:500px) {
+    .AE-styling-footer {
+        font-size: 30px;
+    }
+}

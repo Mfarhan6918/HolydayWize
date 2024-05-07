@@ -1,0 +1,25 @@
+#Border2 {
+  padding: 25px;
+  margin: -37px -39px -41px -40px;
+}
+@media (max-width: 320px) {
+  #Border2 {
+    padding: 15px;
+  }
+}
+#Btn-Hover:hover {
+  color: rgb(224, 224, 224);
+}
+#BackBox {
+  background-color: #adb5bd;
+  padding: 149px;
+  margin: -191px -48px -59px -56px;
+}
+#Form {
+  margin: 15px -72px 0px -57px;
+}
+input:focus,
+textarea:focus,
+button:focus {
+  box-shadow: 0px 0px 3px 2px #e88f2a !important;
+}

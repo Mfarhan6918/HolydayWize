@@ -1,0 +1,28 @@
+.navbar-brand img {
+    width: 250px;
+  }
+  @media (max-width: 500px) {
+    .navbar-brand img {
+        width: 235px;
+    }
+  }
+  @media (max-width: 400px) {
+    .navbar-brand img {
+        width: 218px;
+    }
+    .px-sm-00{
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+    }
+  }
+  @media (min-width:400px) {
+    .px-sm-00{
+      padding-right: 1rem !important;
+      padding-left: 1rem !important;
+    }
+  }
+  @media (max-width: 350px) {
+    .navbar-brand img {
+        width: 178px;
+    }
+  }

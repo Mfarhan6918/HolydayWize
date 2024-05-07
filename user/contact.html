@@ -7,6 +7,8 @@
   <title>contact</title>
   <link rel="stylesheet" href="../css/bootstrap.css">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../user/contact.css">
+  <link rel="stylesheet" href="../user/navbar-responsive.css">
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -16,35 +18,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <style>
-        #Border{
-                border:1px solid white;
-                padding: 25px 19px;
-                margin:-37px -39px -41px -40px;
-        }
-        #Border2{
-                border:1px solid white;
-                padding:39px;
-                 margin: -37px -39px -41px -40px;
-               }
-        #Btn-Hover:hover {
-                color:rgb(224, 224, 224);
-        }
-        #BackBox{
-                background-color:#adb5bd;
-                padding:149px;
-                margin:-191px -48px -59px -56px;
-        }
-        #Form{
-                margin:15px -72px 0px -57px;
-
-        }
-        input:focus,
-        textarea:focus,
-        button:focus {
-                box-shadow: 0px 0px 3px 2px #E88F2A !important;
-        }
-</style>
 </head>
 <body>
 
@@ -54,7 +27,7 @@
       <div class="col-12 shadow-sm">
         <nav class="navbar navbar-expand-lg navbar-light d-flex align-items-center px-0">
           <a class="navbar-brand" href="../index.html">
-            <img src="../images/logo.png" class="img-fluid" style="width:250px" alt="">
+            <img src="../images/logo.png" alt="">
           </a>
           <ul class="nav ms-auto temp-clr d-flex align-items-center flex-row">
             <li class="nav-item px-2">
@@ -128,7 +101,7 @@
                 </li>
               </ul>
             </li>
-            <li class="nav-item px-3 dropdown">
+            <li class="nav-item px-sm-00 dropdown">
               <a class="nav-link btn-radius-clr text-white" id="menu-btn" aria-current="page" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-align-justify" style="color: #ffffff; font-size: 20px;"></i>
@@ -220,29 +193,29 @@
     <div class="container-fluid contact position-relative px-5" style="margin-top: 48px; background-color: #f4f4f5;">
         <div class="container">
             <div class="row g-5 mb-5 justify-content-center">
-                <div class="col-lg-4 col-md-6 d-flex">
-                    <div class="text-center text-white p-5 flex-grow-1" style="background-color:#04a4eb;">
-                    <div id="Border">
+                <div class="col-12 col-lg-4 d-flex">
+                    <div class=" text-center text-white p-5 flex-grow-1" style="background-color:#04a4eb;">
+                      <div id="Border2">
                         <i class="bi bi-geo-alt fs-1 text-white"></i>
-                        <h6 class="text-uppercase my-2" style="color:black; font-family:Oswald, sans-serif; font-size:30px;"> Our Office</h6>
-                        <span>152 - 160 City Road, London, United Kingdom, EC1V 2NX</span>
-                        </div>
+                        <h6 class="text-uppercase my-2" style="color:black; font-family:Oswald, sans-serif; font-size:25px;"> Our Office</h6>
+                        <span>City Road, London, United Kingdom, EC1V 2NX</span>
+                      </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex">
-                    <div class="border-inner text-center text-white p-5 flex-grow-1" style="background-color:#04a4eb;">
-                    <div id="Border2">
+                <div class="col-12 col-lg-4 d-flex">
+                    <div class=" text-center text-white p-5 flex-grow-1" style="background-color:#04a4eb;">
+                      <div id="Border2">
                         <i class="bi bi-envelope-open fs-1 text-white"></i>
-                        <h6 class="text-uppercase my-2" style="color:black; font-family:Oswald, sans-serif; font-size:30px;">Email Us</h6>
+                        <h6 class="text-uppercase my-2" style="color:black; font-family:Oswald, sans-serif; font-size:25px;"> Email Us</h6>
                         <span>info@example.com</span>
-                        </div>
+                      </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 d-flex">
+                <div class="col-12 col-lg-4 d-flex">
                     <div class="border-inner text-center text-white p-5 flex-grow-1" style="background-color:#04a4eb;">
                     <div id="Border2">
                         <i class="bi bi-phone-vibrate fs-1 text-white"></i>
-                        <h6 class="text-uppercase my-2" style="color:black; font-family:Oswald, sans-serif; font-size:30px;">Call Us</h6>
+                        <h6 class="text-uppercase my-2" style="color:black; font-family:Oswald, sans-serif; font-size:25px;">Call Us</h6>
                         <span>+012 345 6789</span>
                     </div>
                 </div>
@@ -267,8 +240,8 @@
                                 <textarea class="form-control bg-light border-0 px-4 py-3" rows="4" style="border-radius:0px" placeholder="Message"></textarea>
                             </div>
                             <div class="col-sm-12 col-12">
-                                <button class="btn btn-primary border-inner w-100 py-3" id="Btn-Hover" type="submit" 
-                                style="border-radius:8px; border-color:#ff6666; font-family:Oswald,sans-serif; background-color:rgb(21 44 91); border-color: #E88F2A !important;"> <div>Send Message</div></button>
+                                <button class="btn border-inner w-100 py-3 text-light" type="submit" 
+                                style="border-radius:8px; font-family:Oswald,sans-serif; background-color:rgb(21 44 91);"> <div>Send Message</div></button>
                              </div>
                         </div>
                     </form>
@@ -276,6 +249,66 @@
                 </div>
              </div>
          </div>
+      <!--===================================
+        Footer section start here
+  ====================================-->
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="box">
+            <div class="box-inner">
+              <h1 class="text-white ">HOLIDAYWIZE</h1>
+              <p style="font-size: 17px;">Get away from the everyday and pamper yourself with a luxurious getaway. Enjoy the
+                dramatic beauty of our award-winning palaces, hotels and resorts in the spectacular setting, with the assurance of safety and
+                renowned Lila service. Leela Moments is designed to help you make the most of the greatest luxury, the luxury of
+                time.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 my-3">
+          <h1 class="AE-styling-footer">GET IN TOUCH</h1>
+          <h6><i style="color: #EBA04A; font-size: 18px; cursor: pointer;" class="fa-solid fa-location-dot"></i> 152 - 160 City Road, London, EC1V 2NX</h6>
+          <h6><i style="color: #EBA04A; font-size: 18px; cursor: pointer;" class="fa-solid fa-envelope"></i> <a href="mail:info@example.com">info@example.com</a></h6>
+          <h6><i style="color: #EBA04A; font-size: 18px; cursor: pointer;" class="fa-solid fa-phone"></i> <a href="tel:+92 304 7167688">+92 304 7167688</a></h6>
+          
+          <div class="d-flex mt-4">
+            <div class="d-flex align-items-center justify-content-center mx-2" style="width: 40px; height: 40px; cursor: pointer; background-color:#EBA04A;">
+              <i class="bi bi-twitter text-white fs-3"></i>
+            </div>
+            <div class="d-flex align-items-center justify-content-center mx-2" style="width: 40px; height: 40px; cursor: pointer; background-color:#EBA04A;">
+              <i class="bi bi-facebook text-white fs-3"></i>
+            </div>
+            <div class="d-flex align-items-center justify-content-center mx-2" style="width: 40px; height: 40px; cursor: pointer; background-color:#EBA04A;">
+              <i class="bi bi-linkedin text-white fs-3"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 my-3">
+          <h1 class="AE-styling-footer">QUICK LINKS</h1>
+          <i style="color: #EBA04A;" class="bi bi-arrow-right"></i> <a class="ah" href="">Home</a><br>
+          <i style="color: #EBA04A;" class="bi bi-arrow-right"></i> <a class="ah" href="">About Us</a><br>
+          <i style="color: #EBA04A;" class="bi bi-arrow-right"></i> <a class="ah" href="">Our Services</a><br>
+          <i style="color: #EBA04A;" class="bi bi-arrow-right"></i> <a class="ah" href="">Meet The
+            Team</a><br>
+          <i style="color: #EBA04A;" class="bi bi-arrow-right"></i> <a class="ah" href="">Latest Blog</a><br>
+          <i style="color: #EBA04A;" class="bi bi-arrow-right"></i> <a class="ah" href="">Contact Us</a>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 my-3">
+          <h1 class="AE-styling-footer">NEWSLETTER</h1>
+          <p style="font-size: 17px;">Amet justo diam dolor rebum lorem sit stet sea justo kasd</p>
+          <div class="input">
+            <input placeholder="Your Email" class="form-control" type="text">
+            <button>Sign up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--===================================
+        Footer section end here
+  ====================================-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
          crossorigin="anonymous"></script>

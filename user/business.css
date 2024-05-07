@@ -1,0 +1,57 @@
+body {
+  background-color: #f4f4f5;
+}
+#logos {
+  margin-top: 5px;
+  border-radius: 50%;
+  height: 57%;
+  width: 77%;
+}
+.card {
+  border-radius: 10px;
+  padding: 6%;
+  margin-bottom: 100px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  padding-top: 2%;
+}
+
+.heading1 {
+  margin-top: 6%;
+}
+
+.imghead {
+  margin-right: 0%;
+  width: 40%;
+  height: 40%;
+}
+.headsec {
+  margin-bottom: 10%;
+}
+.heading2 {
+  max-width: 100%;
+}
+
+#smallText {
+  color: grey;
+}
+
+.footer {
+  margin-top: 0px;
+}
+#bt-travel{
+  font-weight: bold; 
+  font-size:45px; 
+  font-family: 'Oswald', sans-serif
+}
+@media (max-width:500px){
+  #bt-travel{
+    font-size:40px;
+    text-align: center;
+  }
+}

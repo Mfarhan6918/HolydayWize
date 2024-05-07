@@ -7,6 +7,8 @@
   <title>Business</title>
   <link rel="stylesheet" href="../css/bootstrap.css">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../user/business.css">
+  <link rel="stylesheet" href="../user/navbar-responsive.css">
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -16,55 +18,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <style>
-        body{
-            background-color:#f4f4f5;
-        }
-       #logos{
-        margin-top: 5px;
-            border-radius: 50%;
-            height: 57%;
-        width: 77%;
-        }
-        .card {
-            border-radius:10px;
-            padding:6%;
-            margin-bottom: 100px;
-            height: 100%;
-            width: 100%;
-                text-align: center;
-                justify-content: center;
-                align-items: center;
-            }
-            .row{
-                padding-top: 2%;
-            }
-    
-    .heading1{
-        margin-top: 6%;
-    }
-    
-    .imghead{
-    margin-right: 0%;
-        width: 40%;
-        height: 40%;
-    }
-    .headsec{
-        margin-bottom: 10%;
-    }
-    .heading2{
-    
-        max-width: 100%;
-    }
-    
-    #smallText{
-        color:grey;
-    }
-    
-    .footer{
-        margin-top:0px
-    }
-    </style>
+
 </head>
 <body>
 
@@ -74,7 +28,7 @@
       <div class="col-12 shadow-sm">
         <nav class="navbar navbar-expand-lg navbar-light d-flex align-items-center px-0">
           <a class="navbar-brand" href="../index.html">
-            <img src="../images/logo.png" class="img-fluid" style="width:250px" alt="">
+            <img src="../images/logo.png" alt="logo">
           </a>
           <ul class="nav ms-auto temp-clr d-flex align-items-center flex-row">
             <li class="nav-item px-2">
@@ -148,7 +102,7 @@
                 </li>
               </ul>
             </li>
-            <li class="nav-item px-3 dropdown">
+            <li class="nav-item px-sm-00 dropdown">
               <a class="nav-link btn-radius-clr text-white" id="menu-btn" aria-current="page" role="button"
                 data-bs-toggle="dropdown" aria-expanded="false">
                 <i class="fa-solid fa-align-justify" style="color: #ffffff; font-size: 20px;"></i>
@@ -237,11 +191,11 @@
   </div>
   <!-- Menu area end here -->
 
-<div class="container-fluid" style="background-color: #f4f4f5; padding-bottom:150px;">
+<div class="container-fluid" style="background-color: #f4f4f5; padding:50px 0px;">
     <div class="container">
         <div class="row headsec">
             <div class="col-sm-6 col-md-6 col-lg-6 heading1">
-                <h1 style="font-weight: bold; font-size:45px; font-family: 'Oswald', sans-serif">Business travel made smooth</h1><br><br>
+                <h1 id="bt-travel">Business travel made smooth</h1><br><br>
                 <p style="margin-top: 2%; text-align: justify;">Build a profitable enterprise with simplified enterprise travel. Roundtrip lets in you to diagram each step of a commercial enterprise day trip without a doubt and easily.
                 From reserving journey offerings at different costs to managing an itinerary, you will be free to focal point on what virtually matters.</p>
             </div>
@@ -270,13 +224,72 @@
             <div class="card">
                 <img id="logos" src="../img/stress-free.jpg" class="img-fluid" alt="...">
                 <h3 style="font-family:'Oswald',sans-serif;font-size:34px;">Stress-free journey</h3><br>
-                <p id="smallText">A committed crew of multi-lingual account managers are right here 24/7 to right now remedy any problems that come up all through your trip. Our exceptional pre-check.</p>
+                <p id="smallText">A committed crew of multi-lingual account managers are right here 24/7 to right now remedy any problems that come up all through your trip.</p>
             </div>
         </div>
         </div>
         </div>
-
     </div>
+      <!--===================================
+        Footer section start here
+  ====================================-->
+  <section class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-xl-3">
+          <div class="box">
+            <div class="box-inner">
+              <h1 class="text-white ">HOLIDAYWIZE</h1>
+              <p style="font-size: 17px;">Get away from the everyday and pamper yourself with a luxurious getaway. Enjoy the
+                dramatic beauty of our award-winning palaces, hotels and resorts in the spectacular setting, with the assurance of safety and
+                renowned Lila service. Leela Moments is designed to help you make the most of the greatest luxury, the luxury of
+                time.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 my-3">
+          <h1 class="AE-styling-footer">GET IN TOUCH</h1>
+          <h6><i style="color: #EBA04A; font-size: 18px; cursor: pointer;" class="fa-solid fa-location-dot"></i> 152 - 160 City Road, London, EC1V 2NX</h6>
+          <h6><i style="color: #EBA04A; font-size: 18px; cursor: pointer;" class="fa-solid fa-envelope"></i> <a href="mail:info@example.com">info@example.com</a></h6>
+          <h6><i style="color: #EBA04A; font-size: 18px; cursor: pointer;" class="fa-solid fa-phone"></i> <a href="tel:+92 304 7167688">+92 304 7167688</a></h6>
+          
+          <div class="d-flex mt-4">
+            <div class="d-flex align-items-center justify-content-center mx-2" style="width: 40px; height: 40px; cursor: pointer; background-color:#EBA04A;">
+              <i class="bi bi-twitter text-white fs-3"></i>
+            </div>
+            <div class="d-flex align-items-center justify-content-center mx-2" style="width: 40px; height: 40px; cursor: pointer; background-color:#EBA04A;">
+              <i class="bi bi-facebook text-white fs-3"></i>
+            </div>
+            <div class="d-flex align-items-center justify-content-center mx-2" style="width: 40px; height: 40px; cursor: pointer; background-color:#EBA04A;">
+              <i class="bi bi-linkedin text-white fs-3"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 my-3">
+          <h1 class="AE-styling-footer">QUICK LINKS</h1>
+          <i style="color: #EBA04A;" class="bi bi-arrow-right"></i> <a class="ah" href="">Home</a><br>
+          <i style="color: #EBA04A;" class="bi bi-arrow-right"></i> <a class="ah" href="">About Us</a><br>
+          <i style="color: #EBA04A;" class="bi bi-arrow-right"></i> <a class="ah" href="">Our Services</a><br>
+          <i style="color: #EBA04A;" class="bi bi-arrow-right"></i> <a class="ah" href="">Meet The
+            Team</a><br>
+          <i style="color: #EBA04A;" class="bi bi-arrow-right"></i> <a class="ah" href="">Latest Blog</a><br>
+          <i style="color: #EBA04A;" class="bi bi-arrow-right"></i> <a class="ah" href="">Contact Us</a>
+        </div>
+        <div class="col-12 col-md-6 col-xl-3 my-3">
+          <h1 class="AE-styling-footer">NEWSLETTER</h1>
+          <p style="font-size: 17px;">Amet justo diam dolor rebum lorem sit stet sea justo kasd</p>
+          <div class="input">
+            <input placeholder="Your Email" class="form-control" type="text">
+            <button>Sign up</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--===================================
+        Footer section end here
+  ====================================-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
